@@ -667,10 +667,6 @@ input{
     background-color: chocolate;
 }
 
-
-
-
-
 .text-Our-Business-div{
     padding-top: 12%;
 }
@@ -698,7 +694,7 @@ input{
 .scroll-1-card-div{
     height: 70%;
     width: 94%;
-    background-color: limegreen;
+    /* background-color: limegreen; */
     margin-left: 40px;
     margin-top: 80px;
     display: flex;
@@ -715,20 +711,53 @@ input{
 .scroll-card-1-div{
     height: 100%;
     min-width: 30%;
-    background-color: rgb(103, 86, 80);
+    background-image: url(/our-Business-1_Desktop_1.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.our-scroll-text-div{
+    padding-left: 25PX;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.872);
+}
+.learn-scroll-button{
+    padding: 11px 18px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.872);
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
 }
 .scroll-card-2-div{
     height: 100%;
     min-width: 30%;
-    background-color: coral;
+    background-image: url(/our-Business-2_Desktop_2.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
 }
 .scroll-card-3-div{
     height: 100%;
     min-width: 30%;
-    background-color: rgb(50, 23, 13);
+    background-image: url(/our-Business-3_Desktop_3.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
 }
 .scroll-card-4-div{
     height: 100%;
     min-width: 30%;
-    background-color: rgb(219, 73, 20);
+    background-image: url(/our-Business-4_Desktop_4.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
 }
