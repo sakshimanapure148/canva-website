@@ -649,23 +649,93 @@ input{
 .top-11-img{
     min-width: 6px;
     background-color: chocolate;
+    border-radius: 10px;
+   
 }
-.top-12-img{
+
+
+
+.page-two-slider-wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    gap: 20px;
+    
+}
+.top-2-1-img{
     min-width: 6px;
     background-color: chocolate;
+    grid-column: span 4;
+    border-radius: 10px;
 }
-.top-13-img{
+.top-2-2-img{
     min-width: 6px;
     background-color: chocolate;
+    grid-column: span 3;
+    border-radius: 10px;
 }
-.top-14-img{
+.top-2-3-img{
     min-width: 6px;
     background-color: chocolate;
+    grid-column: span 2;
+    border-radius: 10px;
 }
-.top-15-img{
+.top-2-4-img{
     min-width: 6px;
     background-color: chocolate;
+    grid-column: span 3;
+    border-radius: 10px;
 }
+.top-2-5-img{
+    min-width: 6px;
+    background-color: chocolate;
+    grid-column: span 7;
+    border-radius: 10px;
+}
+.top-2-6-img{
+    min-width: 6px;
+    background-color: chocolate;
+    grid-column: span 3;
+    border-radius: 10px;
+}
+.top-2-7-img{
+    min-width: 6px;
+    background-color: chocolate;
+    grid-column: span 3;
+    border-radius: 10px;
+}
+.top-2-8-img{
+    min-width: 6px;
+    background-color: chocolate;
+    grid-column: span 3;
+    border-radius: 10px;f 
+}
+.top-2-9-img{
+    min-width: 6px;
+    background-color: chocolate;
+    grid-column: span 4;
+    border-radius: 10px;
+}
+.top-2-10-img{
+    min-width: 6px;
+    background-color: chocolate;
+    grid-column: span 4;
+    border-radius: 10px;
+}
+.js-small-img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 .text-Our-Business-div{
     padding-top: 12%;
